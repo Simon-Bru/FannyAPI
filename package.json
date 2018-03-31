@@ -1,0 +1,27 @@
+{
+  "name": "fannyapi",
+  "version": "1.0.0",
+  "description": "API for Fanny Android APP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simon-Bru/FannyAPI.git"
+  },
+  "keywords": [
+    "api",
+    "rest"
+  ],
+  "author": "simon bruguerolle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Simon-Bru/FannyAPI/issues"
+  },
+  "homepage": "https://github.com/Simon-Bru/FannyAPI#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
+}
