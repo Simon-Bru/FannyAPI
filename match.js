@@ -10,7 +10,8 @@ const MatchSchema = new mongoose.Schema({
     fanny:      { type: Boolean },
     imgPath:    { type: String },
     longitude:  { type: Number },
-    latitude:   { type: Number }
+    latitude:   { type: Number },
+    deviceId:   { type: String, required: true }
 }, 
 { minimize: false, timestamps: true });
 
