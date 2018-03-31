@@ -30,7 +30,7 @@ app.post('/match', (req, res) => {
 });
 
 app.get('/match/:deviceId', (req, res) => {
-    Match.find({ device: req.params.deviceId })
+    Match.find({ deviceId: req.params.deviceId })
     .sort({ createdAt: 'desc' })
     .exec((err, matches) => {
         if(err) {
